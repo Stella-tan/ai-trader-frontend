@@ -2,6 +2,7 @@ import streamlit as st
 import json, datetime, re
 import pandas as pd
 import numpy as np
+import pytz
 from pathlib import Path
 
 # Get the directory where the script is located
@@ -9,6 +10,15 @@ APP_DIR = Path(__file__).parent
 DATA_DIR = APP_DIR / "data"  # Use absolute path to data directory
 APP_VERSION = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
+def convert_utc_to_local(utc_datetime_str):
+    """Convert UTC datetime string to Malaysia local time"""
+    utc_dt = datetime.datetime.fromisoformat(utc_datetime_str.replace('Z', '+00:00'))
+    if utc_dt.tzinfo is None:
+        utc_dt = utc_dt.replace(tzinfo=pytz.UTC)
+    
+    local_tz = pytz.timezone('Asia/Kuala_Lumpur')
+    local_dt = utc_dt.astimezone(local_tz)
+    return local_dt
 
 @st.cache_data(ttl=900)   # refresh every 15 min
 def load_snapshot_data(agent):
@@ -17,7 +27,16 @@ def load_snapshot_data(agent):
         return None, None, None
     
     latest = files[-1]
-    last_updated = datetime.datetime.strptime(latest.stem.split('_', 1)[1], '%Y%m%d_%H%M%S')
+
+    ### NEW
+    # Parse the filename timestamp and convert to local time
+    filename_time = datetime.datetime.strptime(latest.stem.split('_', 1)[1], '%Y%m%d_%H%M%S')
+    # Assume the filename timestamp is in UTC, convert to local
+    filename_time_utc = pytz.UTC.localize(filename_time)
+    last_updated = filename_time_utc.astimezone(pytz.timezone('Asia/Kuala_Lumpur'))
+    
+    ### OLD
+    # last_updated = datetime.datetime.strptime(latest.stem.split('_', 1)[1], '%Y%m%d_%H%M%S')
     
     with open(latest) as f:
         data = json.load(f)
