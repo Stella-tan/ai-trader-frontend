@@ -7,6 +7,8 @@ from pathlib import Path
 # Get the directory where the script is located
 APP_DIR = Path(__file__).parent
 DATA_DIR = APP_DIR / "data"  # Use absolute path to data directory
+APP_VERSION = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
 
 @st.cache_data(ttl=900)   # refresh every 15 min
 def load_snapshot_data(agent):
@@ -169,8 +171,13 @@ if page == "Claude_1":
         # Header with last updated time
         st.title("📊 Claude_1")
         st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
-        st.caption(f"Last updated: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
-        st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+        # st.caption(f"Last updated: {last_updated.strftime(  '%Y-%m-%d %H:%M:%S')}")
+        # st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+        col1, col2 = st.columns(2)
+        with col1:
+            st.caption(f"Data updated: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}")
+        with col2:
+            st.caption(f"App deployed: {APP_VERSION}")
     
     # Define original portfolio value
     ORIGINAL_PORTFOLIO_VALUE = 100000.00
