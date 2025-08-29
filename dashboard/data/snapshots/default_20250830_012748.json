@@ -1,0 +1,29 @@
+{
+  "account": {
+    "id": "654d40ac-0955-4865-b40b-9f03e9e0ca51",
+    "cash": 70144.73,
+    "portfolio_value": 100458.1,
+    "buying_power": 170602.83,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 100458.1,
+    "updated_at": "2025-08-30T01:27:48.898219"
+  },
+  "positions": [
+    {
+      "symbol": "SPY",
+      "qty": 47.069,
+      "market_value": 30313.372673,
+      "cost_basis": 30269.912639,
+      "unrealized_pl": 43.460034,
+      "unrealized_plpc": 0.0014357502288925,
+      "current_price": 644.0199,
+      "avg_entry_price": 643.096574,
+      "side": "long",
+      "exchange": "ARCA"
+    }
+  ],
+  "cash": 70144.73,
+  "timestamp": "2025-08-30T01:27:48.910207"
+}
