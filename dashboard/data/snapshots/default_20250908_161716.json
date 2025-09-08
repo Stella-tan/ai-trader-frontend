@@ -1,0 +1,41 @@
+{
+  "account": {
+    "id": "654d40ac-0955-4865-b40b-9f03e9e0ca51",
+    "cash": 60362.42,
+    "portfolio_value": 100707.31,
+    "buying_power": 161069.73,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 100707.31,
+    "updated_at": "2025-09-08T16:17:16.025905"
+  },
+  "positions": [
+    {
+      "symbol": "JNJ",
+      "qty": 55.0,
+      "market_value": 9823.0,
+      "cost_basis": 9782.3,
+      "unrealized_pl": 40.7,
+      "unrealized_plpc": 0.0041605757337232,
+      "current_price": 178.6,
+      "avg_entry_price": 177.86,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "SPY",
+      "qty": 47.069,
+      "market_value": 30521.89305,
+      "cost_basis": 30269.912639,
+      "unrealized_pl": 251.980411,
+      "unrealized_plpc": 0.0083244512134913,
+      "current_price": 648.45,
+      "avg_entry_price": 643.096574,
+      "side": "long",
+      "exchange": "ARCA"
+    }
+  ],
+  "cash": 60362.42,
+  "timestamp": "2025-09-08T16:17:16.100381"
+}
