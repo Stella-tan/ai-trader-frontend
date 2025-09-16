@@ -1,0 +1,77 @@
+{
+  "account": {
+    "id": "654d40ac-0955-4865-b40b-9f03e9e0ca51",
+    "cash": 36062.16,
+    "portfolio_value": 101053.81,
+    "buying_power": 137115.97,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 101053.81,
+    "updated_at": "2025-09-17T03:09:31.099535"
+  },
+  "positions": [
+    {
+      "symbol": "JNJ",
+      "qty": 55.0,
+      "market_value": 9710.7945,
+      "cost_basis": 9782.3,
+      "unrealized_pl": -71.5055,
+      "unrealized_plpc": -0.0073096817721804,
+      "current_price": 176.5599,
+      "avg_entry_price": 177.86,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 4.0,
+      "market_value": 2041.56,
+      "cost_basis": 2006.28,
+      "unrealized_pl": 35.28,
+      "unrealized_plpc": 0.0175847837789341,
+      "current_price": 510.39,
+      "avg_entry_price": 501.57,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 121.0,
+      "market_value": 21192.545,
+      "cost_basis": 21329.99,
+      "unrealized_pl": -137.445,
+      "unrealized_plpc": -0.0064437442305411,
+      "current_price": 175.145,
+      "avg_entry_price": 176.280909,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "SPY",
+      "qty": 47.069,
+      "market_value": 31088.368465,
+      "cost_basis": 30269.912639,
+      "unrealized_pl": 818.455826,
+      "unrealized_plpc": 0.0270385922734873,
+      "current_price": 660.485,
+      "avg_entry_price": 643.096574,
+      "side": "long",
+      "exchange": "ARCA"
+    },
+    {
+      "symbol": "XLP",
+      "qty": 12.0,
+      "market_value": 958.38,
+      "cost_basis": 963.97,
+      "unrealized_pl": -5.59,
+      "unrealized_plpc": -0.0057989356515244,
+      "current_price": 79.865,
+      "avg_entry_price": 80.330833,
+      "side": "long",
+      "exchange": "ARCA"
+    }
+  ],
+  "cash": 36062.16,
+  "timestamp": "2025-09-17T03:09:31.182022"
+}
