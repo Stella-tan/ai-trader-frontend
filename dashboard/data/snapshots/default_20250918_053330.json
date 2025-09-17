@@ -1,0 +1,77 @@
+{
+  "account": {
+    "id": "654d40ac-0955-4865-b40b-9f03e9e0ca51",
+    "cash": 36062.16,
+    "portfolio_value": 100460.63,
+    "buying_power": 136522.79,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 100460.63,
+    "updated_at": "2025-09-18T05:33:30.515085"
+  },
+  "positions": [
+    {
+      "symbol": "JNJ",
+      "qty": 55.0,
+      "market_value": 9711.933,
+      "cost_basis": 9782.3,
+      "unrealized_pl": -70.367,
+      "unrealized_plpc": -0.0071932980996289,
+      "current_price": 176.5806,
+      "avg_entry_price": 177.86,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 4.0,
+      "market_value": 2034.64,
+      "cost_basis": 2006.28,
+      "unrealized_pl": 28.36,
+      "unrealized_plpc": 0.0141356141715015,
+      "current_price": 508.66,
+      "avg_entry_price": 501.57,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 121.0,
+      "market_value": 20643.8463,
+      "cost_basis": 21329.99,
+      "unrealized_pl": -686.1437,
+      "unrealized_plpc": -0.0321680272705238,
+      "current_price": 170.6103,
+      "avg_entry_price": 176.280909,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "SPY",
+      "qty": 47.069,
+      "market_value": 31045.77102,
+      "cost_basis": 30269.912639,
+      "unrealized_pl": 775.858381,
+      "unrealized_plpc": 0.0256313386250206,
+      "current_price": 659.58,
+      "avg_entry_price": 643.096574,
+      "side": "long",
+      "exchange": "ARCA"
+    },
+    {
+      "symbol": "XLP",
+      "qty": 12.0,
+      "market_value": 962.28,
+      "cost_basis": 963.97,
+      "unrealized_pl": -1.69,
+      "unrealized_plpc": -0.0017531665923213,
+      "current_price": 80.19,
+      "avg_entry_price": 80.330833,
+      "side": "long",
+      "exchange": "ARCA"
+    }
+  ],
+  "cash": 36062.16,
+  "timestamp": "2025-09-18T05:33:30.590350"
+}
