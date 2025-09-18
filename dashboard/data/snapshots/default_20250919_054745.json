@@ -1,0 +1,89 @@
+{
+  "account": {
+    "id": "654d40ac-0955-4865-b40b-9f03e9e0ca51",
+    "cash": 26264.3,
+    "portfolio_value": 101052.02,
+    "buying_power": 127316.32,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 101052.02,
+    "updated_at": "2025-09-19T05:47:45.410060"
+  },
+  "positions": [
+    {
+      "symbol": "JNJ",
+      "qty": 55.0,
+      "market_value": 9589.25,
+      "cost_basis": 9782.3,
+      "unrealized_pl": -193.05,
+      "unrealized_plpc": -0.0197346227369841,
+      "current_price": 174.35,
+      "avg_entry_price": 177.86,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 4.0,
+      "market_value": 2033.8,
+      "cost_basis": 2006.28,
+      "unrealized_pl": 27.52,
+      "unrealized_plpc": 0.0137169288434316,
+      "current_price": 508.45,
+      "avg_entry_price": 501.57,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 121.0,
+      "market_value": 21311.7784,
+      "cost_basis": 21329.99,
+      "unrealized_pl": -18.2116,
+      "unrealized_plpc": -0.0008538025568695,
+      "current_price": 176.1304,
+      "avg_entry_price": 176.280909,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "SPY",
+      "qty": 47.069,
+      "market_value": 31207.68838,
+      "cost_basis": 30269.912639,
+      "unrealized_pl": 937.775741,
+      "unrealized_plpc": 0.0309804574656011,
+      "current_price": 663.02,
+      "avg_entry_price": 643.096574,
+      "side": "long",
+      "exchange": "ARCA"
+    },
+    {
+      "symbol": "XLP",
+      "qty": 12.0,
+      "market_value": 955.1988,
+      "cost_basis": 963.97,
+      "unrealized_pl": -8.7712,
+      "unrealized_plpc": -0.0090990383518159,
+      "current_price": 79.5999,
+      "avg_entry_price": 80.330833,
+      "side": "long",
+      "exchange": "ARCA"
+    },
+    {
+      "symbol": "XOM",
+      "qty": 85.0,
+      "market_value": 9690.0,
+      "cost_basis": 9797.86,
+      "unrealized_pl": -107.86,
+      "unrealized_plpc": -0.0110085263516727,
+      "current_price": 114.0,
+      "avg_entry_price": 115.268941,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 26264.3,
+  "timestamp": "2025-09-19T05:47:45.475635"
+}
