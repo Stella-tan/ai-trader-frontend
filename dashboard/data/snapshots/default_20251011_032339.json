@@ -1,0 +1,101 @@
+{
+  "account": {
+    "id": "654d40ac-0955-4865-b40b-9f03e9e0ca51",
+    "cash": 6245.92,
+    "portfolio_value": 103979.4,
+    "buying_power": 110225.32,
+    "currency": "USD",
+    "account_status": "ACTIVE",
+    "trading_blocked": false,
+    "equity": 103979.4,
+    "updated_at": "2025-10-11T03:23:39.105919"
+  },
+  "positions": [
+    {
+      "symbol": "CAT",
+      "qty": 22.0,
+      "market_value": 10858.32,
+      "cost_basis": 10285.0,
+      "unrealized_pl": 573.32,
+      "unrealized_plpc": 0.0557433155080214,
+      "current_price": 493.56,
+      "avg_entry_price": 467.5,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "JNJ",
+      "qty": 110.0,
+      "market_value": 20914.85,
+      "cost_basis": 19515.65,
+      "unrealized_pl": 1399.2,
+      "unrealized_plpc": 0.0716963052729476,
+      "current_price": 190.135,
+      "avg_entry_price": 177.415,
+      "side": "long",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 4.0,
+      "market_value": 2054.64,
+      "cost_basis": 2006.28,
+      "unrealized_pl": 48.36,
+      "unrealized_plpc": 0.0241043124588791,
+      "current_price": 513.66,
+      "avg_entry_price": 501.57,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 121.0,
+      "market_value": 22612.48,
+      "cost_basis": 21329.99,
+      "unrealized_pl": 1282.49,
+      "unrealized_plpc": 0.0601261416437607,
+      "current_price": 186.88,
+      "avg_entry_price": 176.280909,
+      "side": "long",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "SPY",
+      "qty": 47.069,
+      "market_value": 30903.15195,
+      "cost_basis": 30269.912639,
+      "unrealized_pl": 633.239311,
+      "unrealized_plpc": 0.0209197601113698,
+      "current_price": 656.55,
+      "avg_entry_price": 643.096574,
+      "side": "long",
+      "exchange": "ARCA"
+    },
+    {
+      "symbol": "XLP",
+      "qty": 12.0,
+      "market_value": 938.04,
+      "cost_basis": 963.97,
+      "unrealized_pl": -25.93,
+      "unrealized_plpc": -0.0268991773602913,
+      "current_price": 78.17,
+      "avg_entry_price": 80.330833,
+      "side": "long",
+      "exchange": "ARCA"
+    },
+    {
+      "symbol": "XOM",
+      "qty": 85.0,
+      "market_value": 9452.0,
+      "cost_basis": 9797.86,
+      "unrealized_pl": -345.86,
+      "unrealized_plpc": -0.0352995450026843,
+      "current_price": 111.2,
+      "avg_entry_price": 115.268941,
+      "side": "long",
+      "exchange": "NYSE"
+    }
+  ],
+  "cash": 6245.92,
+  "timestamp": "2025-10-11T03:23:39.114564"
+}
